@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chef Harlie</title>
+    <style>
+        body {
+            color: rgb(116, 11, 28);
+            background-color: rgb(241, 157, 171);
+        }
+
+        #about-section {
+            background-color: rgb(251, 131, 151);
+        }
+    </style>
+    <style>
+        a:link,
+        a:visited {
+
+            color: blue;
+            padding: 15px 25px;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        a:hover,
+        a:active {
+            background-color: rgba(189, 80, 240, 0.911);
+        }
+    </style>
+    <style>
+        #about-comment {
+            color: rgb(16, 16, 104)
+        }
+    </style>
+
+    <style>
+         h2,p { text-align: justify }
+
+
+    </style>
+</head>
+
+<body>
+    <i>
+        <h1>Harlie's Sweet and Salty <abbr title="Harlie's Sweet and Salt">"HSS"</abbr></h1>
+        <section id="about-section">
+            <h2>Welcome to <abbr title="Harlie's Sweet and Salt">HSS</abbr> Bakery</h2>
+        </section>
+        <section>
+            <h2>Upside-down Cake</h2>
+            <section class="image">
+                <img src="./Apple-Upside-Down-Cake.jpeg" style="max-width:30%;height:auto;" alt="Apple cake" />
+
+
+            </section>
+        </section>
+        <p>
+        <h5>The recipe below makes one 10-inch cake.</h5><br>
+
+        <b>Ingredients</b> <br> <br>
+        <b>For the Fruit Layer</b> <br>
+        3 tablespoons butter, unsalted <br>
+        3/4 cup packed light brown sugar <br>
+        2-3 cups sliced or chopped fruit <br>
+        <br> <b>For the Cake</b><br>
+        <img src="./Pineapple-Upside-Down-Cake.jpeg" width="120" height="120" alt="pinapple cake" style="float:right" ;
+            width:42px; height:42px;>
+        1-1/2 cups all-purpose flour<br>
+        1-1/2 teaspoon baking powder<br>
+        1/4 teaspoon salt<br>
+        1/2 cup unsalted butter<br>
+        3/4 cup granulated sugar<br>
+        1 teaspoon vanilla extract<br>
+        2 large eggs, at room temperature<br>
+        1/2 cup whole milk<br>
+        </p>
+
+        <p>
+            <b>
+            <h2>Instructions</h2>
+            </b> <br>
+            <b>Step 1: Caramelize the sugar</b> <br>
+        <p>Melt three tablespoons of butter in the cast-iron skillet over low heat.<br> Add the brown sugar and stir to
+            combine.<br> Continue to cook until the sugar has dissolved and the mixture begins to bubble. <br>Remove
+            from the heat and let cool slightly.</p><br>
+        <b>Step 2: Arrange the fruit</b> <br>
+        <p>Add the fruit to the skillet in a single layer, <br>making sure to completely cover the bottom of the pan.
+            <br>Set aside.</p>
+        <b>Step 3: Prep the other ingredients</b>
+        <p>In a medium bowl, whisk together the flour, baking powder and salt.</p>
+        <p>In a large bowl,<br> cream together the unsalted butter and granulated sugar until light and fluffy. <br>Stir
+            in the vanilla. Beat in the eggs, one at a time.</p><br>
+        <b>Step 4: Combine the wet and dry ingredients</b> <br>
+        <p>Add half the flour mixture to the butter mixture <br>and stir to combine. Then stir in half the milk.
+            <br>Stir in the remaining flour mixture, <br>then the remaining milk and continue stirring until all of the
+            ingredients are just incorporated; do not overmix.</p> <br>
+        <b>Step 5: Add it all together</b> <br> <br>
+        <p>Spoon the cake batter evenly over the fruit in the skillet.<br> Bake for 45-60 minutes in a 350ºF oven,<br>
+            or until the cake is golden brown <br>and a toothpick inserted into the center of the cake comes out clean.
+        </p>
+        <b>Step 6: Let it cool</b>
+        <p>Set the skillet on a wire rack and let the cake cool slightly, no more than 10 minutes.</p>
+        <b>Step 7: Flip it carefully</b>
+        <p>Place a cake plate on top of the skillet and, wearing oven mitts, carefully flip the cake out onto the pan.
+            If any fruit has stuck to the bottom of the skillet, simply scrape the pieces from the skillet bottom with a
+            knife to loosen them and place them back on top of the cake. Upside-down cake is best served warm with a
+            scoop of this Test Kitchen-recommended vanilla ice cream.</p>
+
+
+        </section>
+
+        <section>
+            <p>Select Receipe in the drop-down list.</p>
+
+            <form action="/action_page.php">
+                <label for="cakes">Choose a cake:</label>
+                <select name="cakes" id="cakes">
+                    <option value="vanilla">vanilla</option>
+                    <option value="chocolate">chocolate</option>
+                    <option value="apple-upside-down-cake">Apple-Upside-Down-Cake</option>
+                    <option value="pinapple">Pinapple</option>
+                </select>
+                <br><br>
+                <input type="submit" value="Submit">
+            </form>
+            <p>Click the "Submit" Button to find your cake recipe</p>
+            <!-- <p>Click the "Submit" button and the form-data will be sent to a page on the 
+                server called "action_page.php".</p> -->
+
+        </section>
+
+        <section id="about-comment">
+
+            <p>Try the recipe and leave your feedback</p>
+
+            <form action="/action_page.php">
+                <input type="radio" id="good" name="fav_language" value="GOOD">
+                <label for="good">GOOD</label><br>
+                <input type="radio" id="exellent" name="fav_language" value="EXELLENT">
+                <label for="exellent">EXELLENT</label><br>
+                <input type="radio" id="bad" name="fav_language" value="BAD">
+                <label for="bad">BAD</label><br><br>
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+
+        <section>
+            <a href="mailto:ritchellcarlie.com">Send Your Order
+
+            </a>
+        </section>
+    </i>
+</body>
+
+
+
+</html>
